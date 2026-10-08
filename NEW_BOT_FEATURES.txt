@@ -1,0 +1,38 @@
+BLACKBERRY MUSIC - NEW BOT
+
+DM /start shows the full feature menu immediately in a styled Blackberry Music panel.
+
+MUSIC
+/play <song/link>
+/vplay <video/link>
+/song <name/link>
+/pause /resume /skip /stop /queue /playlist
+/autoplay on|off
+/musicstatus /vcstatus
+Fast acknowledgement is sent before download work starts.
+Autoplay moves to the next queued track when StreamEnded is received.
+
+BROADCAST (OWNER/SUDO)
+/setuser, /unsetuser
+/setgroup, /unsetgroup
+/setlist
+/broadcast <text>
+/broadcast groups <text>
+/broadcast dm <text>
+/broadcast all <text>
+
+HIDDEN WORD
+/hiddenword
+/hw
+/word10
+10 sequential hidden-word rounds. A player who solves all 10 first receives 3000 coins.
+/gamecancel or /hiddenstop cancels the active game.
+
+COINS
+/daily = 500 coins once every 24 hours
+/coins = balance
+/topcoins = leaderboard
+/gamescore = game score + coins
+
+SECURITY
+Do not upload .env. Keep BOT_TOKEN, API_HASH, SESSION_STRING, API_ID, OWNER_ID and MONGO_URI in Render environment variables.
